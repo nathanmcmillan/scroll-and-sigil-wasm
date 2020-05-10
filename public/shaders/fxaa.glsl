@@ -7,9 +7,9 @@ void main() {
     v_texture = position.xy * 0.5 + 0.5;
     gl_Position = position;
 }
-== == == == == == == == == == == == == == == == == == == == == == == == == == == == == =
+===========================================================
 #version 300 es
-                                                                                           precision mediump float;
+precision mediump float;
 uniform sampler2D u_texture0;
 uniform vec2 texel;
 in vec2 v_texture;

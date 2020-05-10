@@ -102,7 +102,7 @@ func (me *RenderSystem) SetUniformMatrix4(gl js.Value, name string, matrix []flo
 
 // MakeProgram func
 func (me *RenderSystem) MakeProgram(gl js.Value, name string) {
-	code := net.Get("shaders/" + name + ".c")
+	code := net.Get("shaders/" + name + ".glsl")
 	parts := strings.Split(code, "===========================================================")
 	vertex := parts[0]
 	fragment := strings.TrimSpace(parts[1])

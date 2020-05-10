@@ -179,7 +179,7 @@ class RenderSystem {
         RenderSystem.TextureFrameBuffer(gl, frame)
     }
     async makeProgram(gl, name) {
-        let file = await Net.Request("shaders/" + name + ".c")
+        let file = await Net.Request("shaders/" + name + ".glsl")
         let parts = file.split("===========================================================")
         let vertex = parts[0]
         let fragment = parts[1].trim()
