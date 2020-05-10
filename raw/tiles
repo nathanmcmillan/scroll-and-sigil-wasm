@@ -1,0 +1,5 @@
+grass{uid: 1, closed: true}
+plank-floor{uid: 2, closed: true}
+planks{uid: 3, closed: true}
+stone{uid: 4, closed: true}
+stone-floor{uid: 5, closed: true}

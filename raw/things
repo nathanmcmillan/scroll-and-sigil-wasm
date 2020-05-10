@@ -1,0 +1,18 @@
+medkit{
+    type:item
+    atlas:items
+    sprite:medkit
+    effects:[
+        health-plus:1
+    ]
+}
+tree{
+    type:scenery
+    atlas:scenery
+    sprite:dead-tree
+}
+baron{
+    type:thing
+    atlas:baron
+    animation:baron
+}

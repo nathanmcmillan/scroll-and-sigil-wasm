@@ -1,0 +1,7 @@
+alias{
+    leather-head-idle[leather-head-1, 0, 24]
+}
+animations{
+    idle[walk-0]
+    walk[walk-0, walk-1]
+}

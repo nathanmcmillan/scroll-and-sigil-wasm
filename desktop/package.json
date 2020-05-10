@@ -1,0 +1,16 @@
+{
+  "name": "scroll-and-sigil",
+  "version": "1.0.0",
+  "description": "multiplayer game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/gameinbucket/scroll-and-sigil"
+  },
+  "author": "gameinbucket",
+  "license": "ISC"
+}

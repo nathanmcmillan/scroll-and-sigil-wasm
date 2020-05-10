@@ -1,0 +1,7 @@
+animations{
+    idle[walk-1]
+    walk[walk-2, walk-3, walk-0, walk-1]
+    melee[melee-0, melee-1]
+    missile[missile-0, missile-1]
+    death[death-0, death-1]
+}

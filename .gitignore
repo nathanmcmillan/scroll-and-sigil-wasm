@@ -1,0 +1,12 @@
+certs/*
+.vscode/
+
+scroll-and-sigil
+scroll-and-sigil-vk
+
+*.app
+*.wasm
+*.o
+*.d
+*.wad
+*.spv
